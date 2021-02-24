@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparações</title>
+    <script>
+        //Ativa verificações adicionais de variaveis
+        //modo chato de JavaScript
+        'use strict'
+
+        let numero = parseInt(prompt('informe um numero MENOR que 1000:'))
+
+        if(isNaN(numero )) {
+            alert('Desculpe-me, mas isso que vc informou não é um numero.')
+
+        }
+
+        else if (numero < 1000){
+            alert('Parabens, voce acertou!')
+        }
+        else if(numero == 1000){
+            alert('Desculpe-me, mas 1000 NÃO É MAIOR que 1000, é igual.')
+        }
+        else {
+            alert('Infelizmente, voce não acertou!')
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
