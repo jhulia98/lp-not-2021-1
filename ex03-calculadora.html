@@ -26,9 +26,18 @@
        let numero1 = parseFloat(prompt('informe o primeiro numero'))
        let numero2 = parseFloat(prompt('informe o segundo numero'))
        let op = prompt('informe o operador')
-
-       if (op === '+') {
-         document.white (`)  
+       
+       if(IsNaN(numero1)|| IsNaN(numero2)) {
+           alert('Erro :os valores informados não corresponde a numeros validos!')
+       }
+       else if (op === '+') {
+         document.white(`${numero1 + numero2}`)  
+       }
+       else if (op === '-') {
+          document.white(`${numero1 - numero2}`) 
+       }
+       else if (op === '*' || op === 'X' || op === 'x'){
+           document.white(`${numero1 * numero2}`)
        }
            
         
